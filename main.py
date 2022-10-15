@@ -24,8 +24,7 @@ def get_odd_letters(mes):
 
 def swap_letters(mes):
     temp = []
-    if not is_even(len(mes)):
-        mes = mes + 'x'
+    
     even = get_even_letters(mes)
     odd = get_odd_letters(mes)
 
