@@ -33,7 +33,12 @@ def swap_letters(mes):
         temp.append(odd[i])
         temp.append(even[i])
     new = ''.join(temp)
-    return new
+    
+    n = ""
+    for i in range(len(new)):
+        if i != len(new)-2:
+            n = n + new[i]
+    return n
 
 
 def choice():
